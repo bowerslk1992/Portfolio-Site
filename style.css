@@ -1,0 +1,170 @@
+html{
+  font-size: 1rem;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  
+  .nunito-regular {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1, h2{
+    font-family: "Libre Baskerville", serif;
+  }
+
+  p{
+    font-family: "Nunito", sans-serif;
+  }
+
+  hr.dotted{
+    border-top: 10px dotted gray;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .nav{
+    background-color: #F2EFE7;
+    margin: 0;
+  }
+
+  a:link{
+    color: black;
+  }
+
+  a:hover{
+    text-decoration: dotted;
+    color: #9ACBD0;
+    font-style: italic;
+  }
+
+  .icon{
+    text-decoration: none;
+  }
+
+  .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #9ACBD0;
+    height: 100vh;
+  }
+
+  .intro-text{
+    width: 600px;
+  }
+
+  .intro-pic{
+    border-radius: 50%;
+  }
+
+  #about-me{
+    background-color: #F2EFE7;  
+    padding: 30px;
+  }
+
+  #projects{
+    background-color: #F2EFE7;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+    background-color: #F2EFE7;
+    
+  }
+
+  .about-image{
+    border-radius: 50%;
+  }
+
+  .about-facts{
+    display: flex;
+    width: 800px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    padding-bottom: 50px;
+  }
+
+  .center{
+    text-align: center;
+    background-color: #F2EFE7;
+  }
+
+  #contact{
+    background-color: #F2EFE7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer{
+    background-color: #9ACBD0;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .intro{
+     display: flex;
+     flex-direction: column;
+    }
+    .intro-pic{
+     height: 200px;
+     width: auto;
+    }
+
+    .about-facts{
+      max-width: 300px;
+    }
+
+    img{
+      width: 100px;
+      height: auto;
+    }
+
+    .intro-text{
+      max-width: 300px;
+    }
+
+   }
+
+
+
+  
+  
+  
+  
